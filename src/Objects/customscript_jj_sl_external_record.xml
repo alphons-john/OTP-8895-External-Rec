@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_jj_sl_external_record">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>JJ SL External Custom Record</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/JobinAndJismi/OTP-8895-External Custom Record form/OTP-8895_External Custom Record.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_jj_sl_external_record">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole>CUSTOMER_CENTER|EMPLOYEE_CENTER|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|SHOPPER|VENDOR_CENTER</audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>T</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>JJ SL External Custom Record</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
